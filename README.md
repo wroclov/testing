@@ -1,7 +1,7 @@
 Commands to run playwright
 
 install and check node.js from https://nodejs.org/ \
-node -v
+node -v \
 npm -v
 
 In selected directory \
