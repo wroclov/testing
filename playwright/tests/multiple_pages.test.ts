@@ -15,11 +15,11 @@ test('should interact with multiple pages', async ({ context }) => {
 
   // Verify the first page's title
   const title1 = await page1.title();
-  expect(title1).toBe('Example Domains'); // ✅ Correct title for example.com
+  expect(title1).toBe('Example Domains'); 
 
   // Verify the second page's title
   const title2 = await page2.title();
-  expect(title2).toBe('Example Domain'); // ✅ Correct title for example.org
+  expect(title2).toBe('Example Domain'); 
 
   // Close the pages
   await page1.close();
